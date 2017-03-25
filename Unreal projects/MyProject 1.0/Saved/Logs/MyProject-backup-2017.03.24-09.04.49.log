@@ -1,0 +1,875 @@
+﻿Log file open, 03/23/17 10:29:57
+LogInit:Display: Running engine for game: MyProject
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-184727154) SRandInit(-184727154).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.077714
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.03.23-09.29.58:058][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-09.29.58:058][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.23-09.29.58:070][  0]LogInit: Computer: JULLES
+[2017.03.23-09.29.58:070][  0]LogInit: User: Julius
+[2017.03.23-09.29.58:070][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.23-09.29.58:070][  0]LogInit: High frequency timer resolution =2.533209 MHz
+[2017.03.23-09.29.58:071][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.03.23-09.29.58:071][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.23-09.29.58:071][  0]LogMemory: Process Physical Memory: 263.19 MB used, 263.19 MB peak
+[2017.03.23-09.29.58:071][  0]LogMemory: Process Virtual Memory: 262.48 MB used, 262.48 MB peak
+[2017.03.23-09.29.58:071][  0]LogMemory: Physical Memory: 3758.27 MB used,  4322.76 MB free, 8081.04 MB total
+[2017.03.23-09.29.58:071][  0]LogMemory: Virtual Memory: 644.21 MB used,  4322.76 MB free, 134217728.00 MB total
+[2017.03.23-09.29.58:158][  0]LogTextLocalizationManager: No translations for ('sv-SE') exist, falling back to 'en' for localization and internationalization data.
+[2017.03.23-09.29.58:870][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.23-09.29.58:897][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2017.03.23-09.29.58:897][  0]LogD3D11RHI:       2018/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.03.23-09.29.58:905][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.03.23-09.29.58:905][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.03.23-09.29.58:907][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.23-09.29.58:907][  0]LogD3D11RHI:       0/0/4040 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.23-09.29.58:907][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.23-09.29.58:910][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.23-09.29.58:910][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2017.03.23-09.29.58:910][  0]LogWindows: EnumDisplayDevices:
+[2017.03.23-09.29.58:911][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.03.23-09.29.58:911][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-09.29.58:911][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.03.23-09.29.58:911][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.03.23-09.29.58:911][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2017.03.23-09.29.58:911][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.03.23-09.29.58:911][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.03.23-09.29.58:911][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.23-09.29.58:926][  0]LogD3D11RHI: Async texture creation enabled
+[2017.03.23-09.29.58:938][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.03.23-09.29.58:938][  0]LogShaderCompilers: Guid format shader working directory is 28 characters bigger than the processId version (E:/tnm061/MyProject/Intermediate/Shaders/WorkingDirectory/9480/).
+[2017.03.23-09.29.58:939][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Julius/AppData/Local/Temp/UnrealShaderWorkingDir/0731681D48A8F9A1EA30E7B4857BDCDF/'.
+[2017.03.23-09.29.58:939][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.23-09.30.00:604][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.23-09.30.00:663][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.03.23-09.30.00:724][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.03.23-09.30.00:782][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.03.23-09.30.00:841][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.03.23-09.30.00:901][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.23-09.30.00:959][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.23-09.30.01:038][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.23-09.30.01:091][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.23-09.30.01:152][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.23-09.30.01:212][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.23-09.30.01:274][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.23-09.30.01:344][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.23-09.30.01:400][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.23-09.30.01:456][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.23-09.30.01:570][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.23-09.30.01:570][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.23-09.30.01:609][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.23-09.30.01:711][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.23-09.30.01:746][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.23-09.30.01:803][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.03.23-09.30.01:870][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.23-09.30.01:926][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.23-09.30.01:983][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.23-09.30.01:983][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.23-09.30.02:467][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.23-09.30.02:532][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/Julius/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.23-09.30.02:532][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Julius/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.03.23-09.30.02:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/tnm061/MyProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.23-09.30.02:532][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.23-09.30.02:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/tnm061/MyProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.23-09.30.02:532][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.23-09.30.02:549][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.23-09.30.02:562][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Julius/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.23-09.30.02:571][  0]LogSlate: Using Freetype 2.6.0
+[2017.03.23-09.30.02:572][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-09.30.02:572][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.23-09.30.02:834][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.23-09.30.02:837][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.23-09.30.03:069][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.03.23-09.30.03:115][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.03.23-09.30.03:167][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.03.23-09.30.03:167][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.03.23-09.30.03:167][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.23-09.30.03:715][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: myproject, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 4136520461
+[2017.03.23-09.30.03:761][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2017.03.23-09.30.03:798][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 1 prioritized culture(s) in 0.015732 seconds
+[2017.03.23-09.30.03:803][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.03.23-09.30.03:803][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.03.23-09.30.03:803][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.23-09.30.03:863][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.23-09.30.05:603][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.03.23-09.30.05:645][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.23-09.30.06:133][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.03.23-09.30.06:553][  0]SourceControl: Info Source control is disabled
+[2017.03.23-09.30.06:554][  0]SourceControl: Info Source control is disabled
+[2017.03.23-09.30.06:613][  0]SourceControl: Info Source control is disabled
+[2017.03.23-09.30.06:666][  0]SourceControl: Info Source control is disabled
+[2017.03.23-09.30.08:064][  0]LogEngine: Initializing Engine...
+[2017.03.23-09.30.08:064][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.03.23-09.30.08:301][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.03.23-09.30.08:310][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-09.30.08:444][  0]LogInit: FAudioDevice initialized.
+[2017.03.23-09.30.08:478][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Julius/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.03.23-09.30.08:489][  0]LogInit: Texture streaming: Enabled
+[2017.03.23-09.30.08:582][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.03.23-09.30.08:676][  0]LogInit: Transaction tracking system initialized
+[2017.03.23-09.30.09:052][  0]BlueprintLog: New page: Editor Load
+[2017.03.23-09.30.09:989][  0]LocalizationService: Info Localization service is disabled
+[2017.03.23-09.30.10:715][  0]LogConsoleResponse:Display: 
+[2017.03.23-09.30.10:839][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.03.23-09.30.10:839][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.23-09.30.11:925][  0]LogFileCache: Scanning file cache for directory 'E:/tnm061/MyProject/Content/' took 0.01s
+[2017.03.23-09.30.11:977][  0]SourceControl: Info Source control is disabled
+[2017.03.23-09.30.11:977][  0]Cmd: MAP LOAD FILE="E:/tnm061/MyProject/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.23-09.30.11:978][  0]LightingResults: New page: Lighting Build
+[2017.03.23-09.30.12:027][  0]MapCheck: New page: Map Check
+[2017.03.23-09.30.12:027][  0]LightingResults: New page: Lighting Build
+[2017.03.23-09.30.12:501][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.03.23-09.30.12:510][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.23-09.30.12:511][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.23-09.30.12:574][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.307ms to complete.
+[2017.03.23-09.30.12:574][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.597
+[2017.03.23-09.30.12:626][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-09.30.12:747][  0]LogCollectionManager: Loaded 0 collections in 0.002395 seconds
+[2017.03.23-09.30.12:829][  0]LogFileCache: Scanning file cache for directory 'E:/tnm061/MyProject/Saved/Collections/' took 0.01s
+[2017.03.23-09.30.12:829][  0]LogFileCache: Scanning file cache for directory 'E:/tnm061/MyProject/Content/Developers/Julius/Collections/' took 0.01s
+[2017.03.23-09.30.12:829][  0]LogFileCache: Scanning file cache for directory 'E:/tnm061/MyProject/Content/Collections/' took 0.01s
+[2017.03.23-09.30.12:829][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.03.23-09.30.12:838][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2244 classes and 450 folders.
+[2017.03.23-09.30.12:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.23-09.30.12:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.23-09.30.12:909][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.03.23-09.30.12:962][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.03.23-09.30.13:008][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.23-09.30.13:130][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.23-09.30.13:136][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.23-09.30.13:207][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.03.23-09.30.13:208][  0]LogLoad: (Engine Initialization) Total time: 17.10 seconds
+[2017.03.23-09.30.13:208][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2017.03.23-09.30.13:208][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.23-09.30.13:217][  0]LogOcInput: OculusInput pre-init called
+[2017.03.23-09.30.13:239][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.23-09.30.13:240][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.03.23-09.30.13:244][  0]LogSlate: Took 0.000336 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.03.23-09.30.13:249][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.03.23-09.30.13:360][  0]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.23-09.30.13:410][  0]LogRenderer: Reallocating scene render targets to support 932x436 NumSamples 1 (Frame:2).
+[2017.03.23-09.30.13:502][  1]LogAssetRegistry: Asset discovery search completed in 9.7636 seconds
+[2017.03.23-09.30.13:502][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.03.23-09.30.13:502][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.03.23-09.30.17:264][412]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.23-09.30.17:667][412]LogAIModule: Creating AISystem for world korridor
+[2017.03.23-09.30.17:701][412]Cmd: MAP LOAD FILE="E:/tnm061/MyProject/Content/korridor.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.23-09.30.17:701][412]LightingResults: New page: Lighting Build
+[2017.03.23-09.30.17:703][412]LoadErrors: New page: Loading map: korridor.umap
+[2017.03.23-09.30.17:704][412]MapCheck: New page: Map Check
+[2017.03.23-09.30.17:704][412]LightingResults: New page: Lighting Build
+[2017.03.23-09.30.17:789][412]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.23-09.30.17:808][412]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.23-09.30.17:870][412]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 62.608ms to complete.
+[2017.03.23-09.30.17:870][412]LogFileHelpers: Loading map 'korridor' took 0.170
+[2017.03.23-09.30.27:384][507]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-09.30.36:726][533]Cmd: DELETE
+[2017.03.23-09.30.36:726][533]Cmd: ACTOR DELETE
+[2017.03.23-09.30.36:731][533]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.30.36:832][533]LogEditorActor: Deleted 1 Actors (0.105 secs)
+[2017.03.23-09.31.22:162][365]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-09.31.24:399][488]Cmd: DELETE
+[2017.03.23-09.31.24:399][488]Cmd: ACTOR DELETE
+[2017.03.23-09.31.24:403][488]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.31.24:506][488]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2017.03.23-09.31.33:530][ 12]Cmd: DELETE
+[2017.03.23-09.31.33:530][ 12]Cmd: ACTOR DELETE
+[2017.03.23-09.31.33:533][ 12]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.31.33:634][ 12]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2017.03.23-09.31.42:601][548]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-09.34.09:055][101]Cmd: DELETE
+[2017.03.23-09.34.09:055][101]Cmd: ACTOR DELETE
+[2017.03.23-09.34.09:059][101]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.34.09:181][101]LogEditorActor: Deleted 1 Actors (0.125 secs)
+[2017.03.23-09.34.10:939][206]Cmd: TRANSACTION UNDO
+[2017.03.23-09.34.10:939][206]LogEditorTransaction: Undo Delete Actors
+[2017.03.23-09.34.10:960][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgång.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:960][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:961][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel16.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:961][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel27.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:980][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel11.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:980][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel25.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:980][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1top3.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:981][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång6.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:981][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång4_151.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:982][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel110.BrushComponent0) Component already registered.
+[2017.03.23-09.34.10:982][206]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.34.11:067][206]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.03.23-09.34.11:386][223]Cmd: TRANSACTION UNDO
+[2017.03.23-09.34.11:387][223]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.34.11:971][252]Cmd: TRANSACTION UNDO
+[2017.03.23-09.34.11:971][252]LogEditorTransaction: Undo Rename Actor
+[2017.03.23-09.34.13:016][312]Cmd: TRANSACTION UNDO
+[2017.03.23-09.34.13:016][312]LogEditorTransaction: Undo Edit Hollow
+[2017.03.23-09.34.13:036][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgång.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:037][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:037][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel26.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:054][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:055][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:055][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2bot3.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:055][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel114.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:056][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad4.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:056][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång6.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:056][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång4_151.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:056][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:057][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel215.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:057][312]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg6.BrushComponent0) Component already registered.
+[2017.03.23-09.34.13:641][342]Cmd: TRANSACTION UNDO
+[2017.03.23-09.34.13:641][342]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.34.16:828][527]Cmd: TRANSACTION UNDO
+[2017.03.23-09.34.16:828][527]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.34.16:849][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:850][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel18.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:850][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg4.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:850][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg2.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:867][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel23.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:867][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot3.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:868][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top3.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:868][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad4.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:869][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:869][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxgolv2.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:869][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel215.BrushComponent0) Component already registered.
+[2017.03.23-09.34.16:869][527]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg6.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:414][555]Cmd: TRANSACTION UNDO
+[2017.03.23-09.34.17:414][555]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.34.17:434][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:435][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel18.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:435][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg4.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:435][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg2.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:453][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel23.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:454][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot3.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:454][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top3.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:455][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad4.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:455][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:455][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxgolv2.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:456][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel215.BrushComponent0) Component already registered.
+[2017.03.23-09.34.17:456][555]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg6.BrushComponent0) Component already registered.
+[2017.03.23-09.34.19:662][683]Cmd: DELETE
+[2017.03.23-09.34.19:662][683]Cmd: ACTOR DELETE
+[2017.03.23-09.34.19:673][683]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.34.19:786][683]LogEditorActor: Deleted 1 Actors (0.116 secs)
+[2017.03.23-09.34.27:827][162]Cmd: DELETE
+[2017.03.23-09.34.27:827][162]Cmd: ACTOR DELETE
+[2017.03.23-09.34.27:829][162]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.34.27:934][162]LogEditorActor: Deleted 1 Actors (0.107 secs)
+[2017.03.23-09.34.45:670][192]Cmd: DELETE
+[2017.03.23-09.34.45:670][192]Cmd: ACTOR DELETE
+[2017.03.23-09.34.45:673][192]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.34.45:777][192]LogEditorActor: Deleted 1 Actors (0.106 secs)
+[2017.03.23-09.35.16:300][993]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-09.35.30:817][836]Cmd: TRANSACTION UNDO
+[2017.03.23-09.35.30:817][836]LogEditorTransaction: Undo Scale Actors
+[2017.03.23-09.35.30:839][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:840][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel18.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:840][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg4.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:840][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg2.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:858][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel23.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:858][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot3.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:858][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top3.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:859][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad4.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:859][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:860][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxgolv2.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:860][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel215.BrushComponent0) Component already registered.
+[2017.03.23-09.35.30:860][836]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg6.BrushComponent0) Component already registered.
+[2017.03.23-09.35.41:726][449]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2017.03.23-09.37.45:711][665]Cmd: TRANSACTION UNDO
+[2017.03.23-09.37.45:711][665]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.37.45:732][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgång.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:732][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg4.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:732][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:732][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel210.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:756][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel15.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:756][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel23.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:756][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel11.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:756][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top3.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:757][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.labvägg.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:757][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.labgolv.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:757][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:757][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:758][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot2.BrushComponent0) Component already registered.
+[2017.03.23-09.37.45:758][665]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel211.BrushComponent0) Component already registered.
+[2017.03.23-09.38.15:625][424]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight12)
+[2017.03.23-09.38.22:644][840]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-09.38.22:655][840]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-09.38.22:658][840]PIE: New page: PIE session: korridor (Mar 23, 2017, 11:38:22 AM)
+[2017.03.23-09.38.22:658][840]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_korridor
+[2017.03.23-09.38.22:692][840]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033535s)
+[2017.03.23-09.38.22:693][840]LogAIModule: Creating AISystem for world korridor
+[2017.03.23-09.38.22:693][840]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2017.03.23-09.38.22:693][840]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/korridor.korridor to /Game/UEDPIE_0_korridor.korridor (0.035030s)
+[2017.03.23-09.38.22:723][840]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-09.38.22:734][840]LogInit: FAudioDevice initialized.
+[2017.03.23-09.38.22:790][840]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.23-09.38.22:798][840]LogWorld: Bringing World /Game/UEDPIE_0_korridor.korridor up for play (max tick rate 60) at 2017.03.23-10.38.22
+[2017.03.23-09.38.22:799][840]LogWorld: Bringing up level for play took: 0.003943
+[2017.03.23-09.38.22:848][840]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2017.03.23-09.38.22:852][840]PIE: Info Play in editor start time for /Game/UEDPIE_0_korridor 0.712
+[2017.03.23-09.39.29:882][766]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-09.39.29:894][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-09.39.29:895][766]PIE: New page: PIE session: korridor (Mar 23, 2017, 11:39:29 AM)
+[2017.03.23-09.39.29:895][766]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_korridor
+[2017.03.23-09.39.29:927][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032772s)
+[2017.03.23-09.39.29:928][766]LogAIModule: Creating AISystem for world korridor
+[2017.03.23-09.39.29:928][766]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2017.03.23-09.39.29:928][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/korridor.korridor to /Game/UEDPIE_0_korridor.korridor (0.033692s)
+[2017.03.23-09.39.29:947][766]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-09.39.29:954][766]LogInit: FAudioDevice initialized.
+[2017.03.23-09.39.29:984][766]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.23-09.39.29:989][766]LogWorld: Bringing World /Game/UEDPIE_0_korridor.korridor up for play (max tick rate 60) at 2017.03.23-10.39.29
+[2017.03.23-09.39.29:989][766]LogWorld: Bringing up level for play took: 0.003445
+[2017.03.23-09.39.29:991][766]PIE: Info Play in editor start time for /Game/UEDPIE_0_korridor -0.149
+[2017.03.23-09.39.53:523][154]LogEditorViewport: Clicking on Actor (LMB): Brush (boxväggpanel2 11)
+[2017.03.23-09.40.51:252][495]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-09.40.51:264][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-09.40.51:265][495]PIE: New page: PIE session: korridor (Mar 23, 2017, 11:40:51 AM)
+[2017.03.23-09.40.51:265][495]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_korridor
+[2017.03.23-09.40.51:298][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033078s)
+[2017.03.23-09.40.51:298][495]LogAIModule: Creating AISystem for world korridor
+[2017.03.23-09.40.51:299][495]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2017.03.23-09.40.51:299][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/korridor.korridor to /Game/UEDPIE_0_korridor.korridor (0.034084s)
+[2017.03.23-09.40.51:316][495]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-09.40.51:324][495]LogInit: FAudioDevice initialized.
+[2017.03.23-09.40.51:356][495]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.23-09.40.51:361][495]LogWorld: Bringing World /Game/UEDPIE_0_korridor.korridor up for play (max tick rate 60) at 2017.03.23-10.40.51
+[2017.03.23-09.40.51:361][495]LogWorld: Bringing up level for play took: 0.003794
+[2017.03.23-09.40.51:364][495]PIE: Info Play in editor start time for /Game/UEDPIE_0_korridor -0.776
+[2017.03.23-09.42.12:342][211]Cmd: EDCALLBACK SURFPROPS
+[2017.03.23-09.42.25:093][929]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-09.42.25:106][929]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-09.42.25:106][929]PIE: New page: PIE session: korridor (Mar 23, 2017, 11:42:25 AM)
+[2017.03.23-09.42.25:106][929]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_korridor
+[2017.03.23-09.42.25:139][929]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032350s)
+[2017.03.23-09.42.25:139][929]LogAIModule: Creating AISystem for world korridor
+[2017.03.23-09.42.25:139][929]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2017.03.23-09.42.25:140][929]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/korridor.korridor to /Game/UEDPIE_0_korridor.korridor (0.033221s)
+[2017.03.23-09.42.25:166][929]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-09.42.25:174][929]LogInit: FAudioDevice initialized.
+[2017.03.23-09.42.25:206][929]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.23-09.42.25:212][929]LogWorld: Bringing World /Game/UEDPIE_0_korridor.korridor up for play (max tick rate 60) at 2017.03.23-10.42.25
+[2017.03.23-09.42.25:212][929]LogWorld: Bringing up level for play took: 0.003140
+[2017.03.23-09.42.25:214][929]PIE: Info Play in editor start time for /Game/UEDPIE_0_korridor 1.074
+[2017.03.23-09.43.12:040][698]LogTemp: Repeting last play command: Selected Viewport
+[2017.03.23-09.43.12:052][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.23-09.43.12:052][698]PIE: New page: PIE session: korridor (Mar 23, 2017, 11:43:12 AM)
+[2017.03.23-09.43.12:053][698]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_korridor
+[2017.03.23-09.43.12:085][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032582s)
+[2017.03.23-09.43.12:086][698]LogAIModule: Creating AISystem for world korridor
+[2017.03.23-09.43.12:086][698]LogPlayLevel: PIE: World Init took: (0.000640s)
+[2017.03.23-09.43.12:086][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/korridor.korridor to /Game/UEDPIE_0_korridor.korridor (0.033431s)
+[2017.03.23-09.43.12:102][698]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.23-09.43.12:109][698]LogInit: FAudioDevice initialized.
+[2017.03.23-09.43.12:138][698]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2017.03.23-09.43.12:142][698]LogWorld: Bringing World /Game/UEDPIE_0_korridor.korridor up for play (max tick rate 60) at 2017.03.23-10.43.12
+[2017.03.23-09.43.12:143][698]LogWorld: Bringing up level for play took: 0.003216
+[2017.03.23-09.43.12:146][698]PIE: Info Play in editor start time for /Game/UEDPIE_0_korridor 0.006
+[2017.03.23-09.44.09:638][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/korridor" FILE="E:/tnm061/MyProject/Saved/Autosaves/Game/korridor_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.03.23-09.44.10:217][990]LogSavePackage: Save=279.08ms
+[2017.03.23-09.44.10:217][990]LogSavePackage: Moving 'E:/tnm061/MyProject/Saved/korridor_Auto153CFEB7E4D7E199F70FF748759208EA0.tmp' to 'E:/tnm061/MyProject/Saved/Autosaves/Game/korridor_Auto1.umap'
+[2017.03.23-09.44.10:218][990]LogSavePackage:Display: Finished SavePackage E:/tnm061/MyProject/Saved/Autosaves/Game/korridor_Auto1.umap
+[2017.03.23-09.44.10:220][990]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/korridor' took 0.597
+[2017.03.23-09.44.10:220][990]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.597
+[2017.03.23-09.44.13:747][200]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.03.23-09.45.37:604][133]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2017.03.23-09.46.24:790][862]Cmd: TRANSACTION UNDO
+[2017.03.23-09.46.24:790][862]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.46.24:812][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:830][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:831][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:831][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:831][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:831][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång6_10.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:832][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:832][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:832][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:832][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:833][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.46.24:833][862]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.47.25:486][399]LogEditorViewport: Clicking on Actor (LMB): Brush (boxväggpanel2 11)
+[2017.03.23-09.49.12:596][650]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.12:596][650]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.49.12:936][664]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.12:936][664]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.49.13:205][674]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.13:205][674]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.49.13:407][681]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.13:407][681]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.49.13:431][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:450][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:450][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:451][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:451][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:451][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång6_10.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:452][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:452][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:452][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:452][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:452][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:453][681]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:641][688]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.13:642][688]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.49.13:667][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:685][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:685][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:686][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:686][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:686][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång6_10.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:687][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:687][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:687][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:687][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:687][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:688][688]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.13:851][693]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.13:851][693]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.49.14:054][700]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.14:054][700]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.49.14:078][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:098][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:098][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:099][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:099][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:100][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:100][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:100][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:100][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:100][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:101][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:101][700]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:307][708]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.14:307][708]LogEditorTransaction: Undo Scale Actors
+[2017.03.23-09.49.14:329][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:348][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:349][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:349][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:349][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:350][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:350][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:350][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:351][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:351][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:351][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:351][708]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:536][715]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.14:536][715]LogEditorTransaction: Undo Scale Actors
+[2017.03.23-09.49.14:557][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:576][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:576][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:577][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:577][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:577][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:578][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:578][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:578][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:578][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:578][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:579][715]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:729][720]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.14:729][720]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.49.14:751][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:772][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:772][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:772][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:772][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:773][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:773][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:774][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:774][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:774][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:774][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:775][720]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:925][725]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.14:925][725]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.49.14:948][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:967][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:967][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:968][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:968][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:968][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:969][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:969][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:969][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:969][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:969][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.14:970][725]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:103][729]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.15:103][729]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.49.15:125][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:145][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:146][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:146][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:146][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:147][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:147][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:147][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:147][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:147][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:148][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:148][729]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:285][733]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.15:285][733]LogEditorTransaction: Undo Move Actors
+[2017.03.23-09.49.15:307][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxpodrumgånghål.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:326][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:326][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel24.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:326][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång3_150.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:327][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel115.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:327][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.BoxBrush.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:327][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:328][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:328][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg5.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:328][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxtak2.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:329][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel111.BrushComponent0) Component already registered.
+[2017.03.23-09.49.15:329][733]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel213.BrushComponent0) Component already registered.
+[2017.03.23-09.49.17:873][877]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.17:873][877]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.49.21:426][ 81]Cmd: TRANSACTION UNDO
+[2017.03.23-09.49.21:426][ 81]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.54.09:236][758]Cmd: DELETE
+[2017.03.23-09.54.09:236][758]Cmd: ACTOR DELETE
+[2017.03.23-09.54.09:239][758]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-09.54.09:409][758]LogEditorActor: Deleted 1 Actors (0.172 secs)
+[2017.03.23-09.55.58:017][168]Cmd: TRANSACTION UNDO
+[2017.03.23-09.55.58:018][168]LogEditorTransaction: Undo Set actor location
+[2017.03.23-09.55.58:039][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel26.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:039][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:039][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel210.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:040][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel21.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:057][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel14.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:059][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad3.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:059][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxkorridorgång2.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:060][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel114.BrushComponent0) Component already registered.
+[2017.03.23-09.55.58:060][168]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel215.BrushComponent0) Component already registered.
+[2017.03.23-09.55.59:920][274]Cmd: TRANSACTION UNDO
+[2017.03.23-09.55.59:920][274]LogEditorTransaction: Undo Select Brush Surface
+[2017.03.23-09.59.22:191][166]LogEditorViewport: Clicking on Actor (LMB): Brush (elrum)
+[2017.03.23-10.00.39:288][680]LogEditorActor: Deleted Actor: Brush
+[2017.03.23-10.00.39:419][680]LogEditorActor: Deleted 1 Actors (0.133 secs)
+[2017.03.23-10.00.46:158][ 73]Cmd: TRANSACTION UNDO
+[2017.03.23-10.00.46:158][ 73]LogEditorTransaction: Undo Move Actors
+[2017.03.23-10.00.46:181][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväg4.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:182][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2top.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:182][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel17.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:182][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel21.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:201][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel13.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:202][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv1bot3.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:202][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxblockad3.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:204][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxskjuv2bot2.BrushComponent0) Component already registered.
+[2017.03.23-10.00.46:204][ 73]LogActorComponent: ~FComponentReregisterContext: (/Game/korridor.korridor:PersistentLevel.boxväggpanel212.BrushComponent0) Component already registered.
+[2017.03.23-10.01.16:787][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/korridor" FILE="E:/tnm061/MyProject/Content/korridor.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.23-10.01.17:063][733]LogSavePackage: Save=251.42ms
+[2017.03.23-10.01.17:063][733]LogSavePackage: Moving 'E:/tnm061/MyProject/Saved/korridorA83409434AEC8F26F7413F876F13B3B2.tmp' to 'E:/tnm061/MyProject/Content/korridor.umap'
+[2017.03.23-10.01.17:067][733]LogSavePackage:Display: Finished SavePackage E:/tnm061/MyProject/Content/korridor.umap
+[2017.03.23-10.01.17:096][733]LogFileHelpers: Saving map 'korridor' took 0.380
+[2017.03.23-10.01.17:383][734]Cmd: QUIT_EDITOR
+[2017.03.23-10.01.18:131][734]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.23-10.01.18:197][734]LogExit: Preparing to exit.
+[2017.03.23-10.01.18:595][734]LogExit: Editor shut down
+[2017.03.23-10.01.18:596][734]LogExit: Transaction tracking system shut down
+[2017.03.23-10.01.18:661][734]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.23-10.01.18:661][734]LogExit: Object subsystem successfully closed.
+[2017.03.23-10.01.18:693][734]LogD3D11RHI: Shutdown
+[2017.03.23-10.01.18:693][734]LogD3D11RHI: CleanupD3DDevice
+[2017.03.23-10.01.18:878][734]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.23-10.01.18:926][734]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (498)
+[2017.03.23-10.01.18:926][734]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.03.23-10.01.18:926][734]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.03.23-10.01.18:926][734]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.03.23-10.01.18:926][734]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.03.23-10.01.18:926][734]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.03.23-10.01.18:928][734]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.03.23-10.01.18:928][734]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.03.23-10.01.18:928][734]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.03.23-10.01.18:928][734]LogDirectoryWatcher: A directory notification for 'E:/tnm061/MyProject/Content/Collections/' was aborted.
+[2017.03.23-10.01.18:928][734]LogDirectoryWatcher: A directory notification for 'E:/tnm061/MyProject/Content/Developers/Julius/Collections/' was aborted.
+[2017.03.23-10.01.18:928][734]LogDirectoryWatcher: A directory notification for 'E:/tnm061/MyProject/Saved/Collections/' was aborted.
+[2017.03.23-10.01.18:928][734]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.03.23-10.01.18:928][734]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.03.23-10.01.18:928][734]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.03.23-10.01.18:929][734]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.03.23-10.01.18:930][734]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.03.23-10.01.18:930][734]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.03.23-10.01.18:930][734]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.03.23-10.01.18:930][734]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.03.23-10.01.18:930][734]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.03.23-10.01.18:930][734]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.03.23-10.01.18:930][734]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.03.23-10.01.19:063][734]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.03.23-10.01.19:064][734]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.03.23-10.01.19:107][734]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.03.23-10.01.19:108][734]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.03.23-10.01.19:188][734]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.03.23-10.01.19:189][734]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.03.23-10.01.19:190][734]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.03.23-10.01.19:191][734]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.03.23-10.01.19:191][734]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.03.23-10.01.19:191][734]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.03.23-10.01.19:191][734]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.03.23-10.01.19:292][734]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.03.23-10.01.19:392][734]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.03.23-10.01.19:395][734]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.03.23-10.01.19:395][734]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.03.23-10.01.19:395][734]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.03.23-10.01.19:395][734]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.03.23-10.01.19:395][734]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.03.23-10.01.19:395][734]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.03.23-10.01.19:474][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.03.23-10.01.19:474][734]LogDirectoryWatcher: A directory notification for 'E:/tnm061/MyProject/Content/' was aborted.
+[2017.03.23-10.01.19:474][734]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.03.23-10.01.19:475][734]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.03.23-10.01.19:556][734]LogDerivedDataCache: Shutdown
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.03.23-10.01.19:556][734]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.03.23-10.01.19:557][734]LogOnline:Display: Unloading online subsystem: NULL
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.03.23-10.01.19:557][734]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.03.23-10.01.19:558][734]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.03.23-10.01.19:558][734]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B114947D1-423A-20B1-1E0D-1492E9311FD0%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=328ae43546b9a891827d26a8b7077986%7C9a7ab1038563467086738a1790146d47%7Cdc685290-dea5-4383-b6f8-543a22cfaaa1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.03.23-10.01.19:561][734]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.03.23-10.01.19:565][734]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.03.23-10.01.19:565][734]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.03.23-10.01.19:565][734]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.03.23-10.01.19:565][734]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.03.23-10.01.19:565][734]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.03.23-10.01.19:567][734]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.03.23-10.01.19:568][734]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.03.23-10.01.19:572][734]LogExit: Exiting.
+[2017.03.23-10.01.19:575][734]Log file closed, 03/23/17 11:01:19

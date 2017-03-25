@@ -1,0 +1,6 @@
+Every object should have it's own folder containing at least.. 
+
+one objectfile.. and 
+one texturefile. 
+
+:D 
